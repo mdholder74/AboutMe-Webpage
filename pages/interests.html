@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moe's Interests</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <style>
+        /* adding padding around the select box which is outside of Sailing */
+        #travel {
+            padding: 10px 10px; 
+            color:  rgba(239, 239, 16, 0.998);
+            background-color:  rgb(11, 33, 102);
+            border: 3px solid  rgba(239, 239, 16, 0.998);
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 2%;
+            
+        }
+
+        #travel-submit {
+            padding: 10px 10px; 
+            color: rgb(11, 33, 102);  
+            background-color:  rgba(239, 239, 16, 0.998);
+            border: 3px solid  rgb(11, 33, 102);
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 2%;
+
+        }
+
+        .travel-border {
+            border: 3px solid  rgba(239, 239, 16, 0.998);
+            border-radius: 5px;
+            padding: 2%;
+            margin: 2%;
+            width: 450px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav id="main-nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-a" href="/pages/index.html">ABOUT ME</a></li>
+            <li class="nav-item"><a class="nav-a" href="/pages/interests.html">INTEREST</a></li>
+            <li class="nav-item"><a class="nav-a" href="/pages/faqs.html">FAQS</a></li>  
+        </ul>
+    </nav>
+    <section>
+        <h2 class="section-heading">BOXING</h2>
+        <img src="/images/rockystatue.jpg" alt="Moe standing next to Rocky Statue" class="img-collection">
+        <img src="/images/rockySteps.jpg" alt="Moe sitting on the famous steps from the Rocky 1 movie" class="img-collection">
+        <p>
+            "I’ve been throwing punches and learning the art of self-defense for a solid 10 years now, covering everything from Krav Maga to Taekwondo, Jiu-Jitsu, Muay Thai, and boxing. 
+            Combat sports are my thing whether I’m training, watching fights ringside, or cheering from the couch.
+        </p>
+        <p>
+            One of my highlights? I had my Rocky moment in Philadelphia! Yep, I ran up the iconic steps, took a picture with the Rocky statue, and tried not to look too winded. 
+            I’d say I felt like a champion… at least until the jog back down!"
+        </p>
+
+    </section>
+    <section>
+        <h2 class="section-heading">FLAG FOOTBALL</h2>
+        <img src="/images/flagfootball.jpg" alt="Moe about to sack the quarterback" class="img-collection">
+        <p>
+            This is my rookie year playing football, and I absolutely lovvve it! I’ve somehow managed to snag MVP twice already and, yes, also managed to break my ankle (but hey, no pain, no gain, right?). 
+            Even with that little setback, my love for the game is stronger than ever. I can’t wait to see this sport hit the Olympic stage one day.
+        </p>
+
+    </section>
+    <section>
+        <h2 class="section-heading">TRAVEL</h2>
+        <img src="/images/sjrelic.jpg" alt="Moe standing infront of the SJO welcome sign" class="img-collection">
+        <img src="/images/sjMoney.jpg" alt="Picture of SJO Money" class="img-collection">
+        <p>
+            I’m a travel enthusiast and have checked off all the big spots in the U.S., from NYC’s bustle to New Orleans’ jazz, Miami’s beaches, and LA’s vibes. 
+            My best trip, hands down? Costa Rica! I went to study Spanish, fell in love with the place… and maybe picked up a little traffic ticket (court appearance included, but that’s a story for later). 
+            
+        </p>
+        <p>
+            Next up on my bucket list: backpacking through South America, where I’ll hopefully avoid any surprise souvenirs from local law enforcement!
+        </p>
+    </section>
+    <section>
+        <h2 class="section-heading">TRAVEL ADVENTURE POLL</h2>
+        <form action="#" class="travel-border">
+            <label for="travel">Choose your preferred way of travel on a 30-Day Adventure</label>
+            <select  id="travel" name="traveler" >
+                <option value="sailing">Sailing</option>
+                <option value="hotairballon">Hot Air Ballon</option>
+                <option value="backpacking">Backpacking</option>
+                <option value="hitchhiking">Hitchhiking</option>
+            </select>
+            <br><br>
+            <input type="submit" value="submit" id="travel-submit">
+        </form>
+    </section>
+    <footer>
+        <!-- footer navigation bar -->
+    <nav id="footer-nav">
+        <ul class="nav-list">
+            <li class="footer-nav-item"><a class="footer-nav-a" href="/pages/index.html">Terms and Conditions</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-a"  href="/pages/interests.html">Copyright</a></li>
+            <li class="footer-nav-item"><a class="footer-nav-a" href="/pages/faqs.html">Cookie Policy</a></li>  
+        </ul>
+    </nav>
+</footer>
+    
+</body>
+</html>

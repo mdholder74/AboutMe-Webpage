@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Happy+Monkey&family=Kablammo&display=swap');
+
+
+.section-heading {
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+
+body {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+/* #hero {
+    height: 100vh;
+    background-image: url("/images/welcome.webp");
+    background-size: cover;
+    
+}
+ #hero2 {
+    height: 100vh;
+    background-image: url("/images/weGotQuestions.webp");
+    background-size: cover;
+    
+} */
+
+
+.nav-list {
+    list-style-type: none; /* removes the bullets from the list items in the navigation bar. */
+    text-align: center;
+    background-color: rgba(239, 239, 16, 0.998);
+    margin: 0; /* Removes default margin */
+    padding: 0; /* No extra padding */
+}
+
+
+.nav-item {
+    display: inline; /* makes the list items in the navigation bar display horizontal. */
+    margin: 0 10px;
+    font-size: 50px;
+}
+
+
+.nav-a {
+    font-weight: bold;
+    text-decoration: none; /* removes the underline from the links in the navigation bar and and padding */
+    color: rgb(11, 33, 102);
+    padding: 8px 32px;
+}
+
+section {
+    text-align: center;
+
+}
+
+.section-heading {
+    font-size: 32px;
+    color: rgb(11, 33, 102);
+    margin: 0;
+    padding: 20px; /*adds padding all around the heading text. */
+}
+
+.img-collection{
+    width: 500px;
+    height: 500px;
+}
+
+.footer-nav-item{
+    display: inline;
+    padding: 2%;
+    margin: 2%;
+}
+
+.footer-nav-a{
+    text-decoration: none;
+    color: rgb(11, 33, 102);
+}
+
+.faqs{
+    border: 5px dashed rgb(11, 33, 102);
+    font-size: 32px;
+    color: rgb(11, 33, 102);
+    margin: 0;
+}
+
+.submit1{
+    background-color: rgb(245, 246, 249);
+    color: rgb(11, 33, 102);
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid  rgba(239, 239, 16, 0.998);
+    
+}
+
+#faqs-title{
+    text-align: center;
+    margin: 10px;
+}
+
+#flex-faqs {
+    display: flex;
+    width: 1200px;
+    font-size: 14px;
+    margin: 40px 15px;
+}
+
+fieldset{
+    text-align: center;
+}
+
+.vibes-label{
+    display: block;
+}
