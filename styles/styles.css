@@ -18,9 +18,7 @@ body {
     font-style: normal;
   }
   
-
-
-/* #hero {
+#hero {
     height: 100vh;
     background-image: url("/images/welcome.webp");
     background-size: cover;
@@ -29,9 +27,9 @@ body {
  #hero2 {
     height: 100vh;
     background-image: url("/images/weGotQuestions.webp");
-    background-size: cover;
+    background-size: contain;
     
-} */
+}
 
 
 .nav-list {
@@ -104,20 +102,94 @@ section {
 
 #faqs-title{
     text-align: center;
-    margin: 10px;
+    margin: 5%;
 }
 
 #flex-faqs {
     display: flex;
     width: 1200px;
     font-size: 14px;
-    margin: 40px 15px;
+    margin: 2%;
+    
 }
+#comedy-faqs, #serious-faqs {
+    border: 3px dashed rgb(11, 33, 102);
+
+}
+
+.faq-question-text{
+    display: block;
+    position: relative;
+
+}
+
+/* creating arrow */
+.faq-question-text:after {
+    width: 10px;
+    height: 10px;
+    content: "";
+    float: right;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    transform: rotate(135deg);
+    transition: 0.4s ease-in-out;   
+}
+
+.faq-answer{
+    line-height: 1.5;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.faq-trigger{
+    display: none;
+}
+
+.faq-trigger:checked + .faq-question-text + .faq-answer{
+
+    max-height: 300px;
+}
+
+.faq-trigger:checked + .faq-question-text::after{
+    transform: rotate(-45deg);
+    transition: 0.4;
+}
+
+
 
 fieldset{
     text-align: center;
+    border: 5px solid rgb(11, 33, 102);
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 350px;
+}
+
+legend{
+    color: rgb(11, 33, 102);
+    font-size: 20px;
 }
 
 .vibes-label{
     display: block;
+    margin-top: 2%;
 }
+
+.vibes-input{
+    border: 2px solid rgba(239, 239, 16, 0.998);
+    padding: 7px 10px;
+}
+
+#vibes-submit {
+    padding: 10px 10px; 
+    background-color: white;
+    color: rgb(11, 33, 102);  
+    border: 3px solid  rgb(11, 33, 102);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2%;
+
+}
+
+
