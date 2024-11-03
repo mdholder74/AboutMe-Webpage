@@ -32,7 +32,7 @@ body {
 #hero {
     width: 100%; /* makes the hero image take up the entire width of the container */
     height: 500px;
-    background-image: url("/images/welcome.webp");
+    background-image: url("/MyResume/images/welcome.webp");
     background-size: cover; /* makes the background image cover the entire width and height of the container */
     background-repeat: no-repeat;
     background-position: center; /* centers the background image to make the cover effect look balanced */
@@ -227,7 +227,7 @@ p a:hover{
 #hero2 {
     width: 830px;
     height: 450px;
-    background-image: url("/images/weGotQuestions.webp");
+    background-image: url("/MyResume/images/weGotQuestions.webp");
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0;
